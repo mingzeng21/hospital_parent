@@ -25,7 +25,7 @@ eval("exports.info=function (str) {\n    document.write(str)\n}\n\n//# sourceURL
   \*********************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("const common=__webpack_require__(/*! ./common */ \"./src/common.js\")\nconst utils=__webpack_require__(/*! ./utils */ \"./src/utils.js\")\ncommon.info('Hello world!'+utils.add(100, 200))\n\n//# sourceURL=webpack://webpackDemo/./src/main.js?");
+eval("const common=__webpack_require__(/*! ./common.js */ \"./src/common.js\")\nconst utils=__webpack_require__(/*! ./utils.js */ \"./src/utils.js\")\ncommon.info('Hello world!'+utils.add(100, 200))\n\n//# sourceURL=webpack://webpackDemo/./src/main.js?");
 
 /***/ }),
 
@@ -35,7 +35,7 @@ eval("const common=__webpack_require__(/*! ./common */ \"./src/common.js\")\ncon
   \**********************/
 /***/ ((__unused_webpack_module, exports) => {
 
-eval("exports.add=function (a, b) {\n    returna+b\n}\n\n//# sourceURL=webpack://webpackDemo/./src/utils.js?");
+eval("exports.add=function (a, b) {\n    return a+b\n}\n\n//# sourceURL=webpack://webpackDemo/./src/utils.js?");
 
 /***/ })
 

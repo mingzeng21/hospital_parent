@@ -1,3 +1,3 @@
 exports.add=function (a, b) {
-    returna+b
+    return a+b
 }
