@@ -1,0 +1,9 @@
+{
+    "code":200,
+    "message":"success",
+    "list":[
+        {"name":"lucy","age":"20"},
+        {"name":"jack","age":"30"},
+        {"name":"mike","age":"40"}
+    ]
+}
