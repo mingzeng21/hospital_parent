@@ -38,6 +38,28 @@ export const constantRouterMap = [
   },
 
   {
+    path: '/hospitalSet',
+    component: Layout,
+    redirect: '/hospitalSet/list',
+    name: '医院设置管理',
+    meta: { title: '医院设置管理', icon: 'example' },
+    children: [
+      {
+        path: 'list',
+        name: '医院设置列表',
+        component: () => import('@/views/hospitalSet/list'),
+        meta: { title: '医院设置列表', icon: 'table' }
+      },
+      {
+        path: 'add',
+        name: '添加医院',
+        component: () => import('@/views/hospitalSet/add'),
+        meta: { title: '添加医院', icon: 'tree' }
+      }
+    ]
+  },
+
+  {
     path: '/example',
     component: Layout,
     redirect: '/example/table',
